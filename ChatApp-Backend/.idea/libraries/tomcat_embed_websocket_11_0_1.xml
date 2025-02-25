@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tomcat-embed-websocket-11.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/tomcat-embed-websocket-11.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
