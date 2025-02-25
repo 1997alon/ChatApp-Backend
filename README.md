@@ -1,6 +1,6 @@
 # ChatApp Backend
 
-## Server Summary:
+## Server Summary
 
 The server is built using Spring Boot libraries, manually uploaded and configured to run seamlessly. 
 It leverages thread pooling for efficient handling of multiple requests, ensuring optimized performance. 
