@@ -1,6 +1,6 @@
 # ChatApp Backend
 
-## to the Front this is the link:
+## To the Front this is the link:
 https://github.com/1997alon/ChatApp-Front
 
 ## Server Summary
