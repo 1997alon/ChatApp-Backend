@@ -1,40 +1,45 @@
-ChatApp - Backend
+# 💬 ChatApp - Backend
 👉 To go to the frontend: ChatApp-Front
 
 ❓ What is this project?
-ChatApp is a simple real-time messaging platform that allows users to register, log in, and chat with others through a clean interface.
-The system uses a structured backend and a modern frontend to provide a smooth and interactive experience.
+ChatApp is a simple real-time messaging platform where users can:
 
-All communication is handled via REST API over HTTP, and only registered users can interact with the system.
+🧾 Register and log in
+
+💬 Chat with others through a clean and responsive interface
+
+🌐 Communicate entirely through a structured REST API over HTTP
+
+The system uses a modular Object-Oriented Java backend, paired with a modern React frontend, to deliver an efficient and interactive chat experience.
 
 🧠 Technologies Used
 🔙 Backend
 Language: Java
 
-Framework: Spring Boot (manually set up, without Maven)
+Framework: Spring Boot (manually set up — no Maven)
 
 Architecture:
 
-Object-Oriented Programming (OOP) with clean structure and modularity
+Built with Object-Oriented Programming (OOP) principles
 
-REST API used for communication between frontend and backend
+Communication via REST API
 
-Thread pooling used to handle multiple requests efficiently
+Thread pooling used to handle multiple concurrent requests
 
-JSON is used for data exchange
+JSON for all data exchange
 
 🖥️ Frontend
 Language: JavaScript
 
-Libraries/Technologies: React, CSS
+Technologies: React, CSS
 
 Features:
 
-User-friendly interface for login and messaging
+Clean and intuitive UI for login and messaging
 
 Displays message history
 
-Built with clean, responsive design
+Responsive design that works across devices
 
 🗄️ Database
 Engine: MySQL
@@ -43,9 +48,9 @@ Tables:
 
 users – Stores user credentials
 
-messages – Stores all sent and received messages
+messages – Stores sent/received chat messages
 
-Other tables as needed for managing chat sessions and user data
+Additional tables may exist for session and user metadata
 
 ✨ Features
 👤 User registration and login
@@ -54,23 +59,23 @@ Other tables as needed for managing chat sessions and user data
 
 🌐 REST API communication between frontend and backend
 
-🧵 Multithreaded backend with thread pool
+🧵 Multithreaded backend using a thread pool
 
-🧠 Object-Oriented backend design
+🧠 Clean and modular OOP-based design
 
-🔄 Clear separation between frontend and backend
+🔄 Full separation between frontend and backend
 
-📄 JSON used for all data exchange
+📄 Uses JSON for all data formats
 
 🛠️ Build & Run Instructions
 🔧 Prerequisites
 Java 17 or higher
 
-MySQL running and configured
+MySQL installed, running, and properly configured
 
-All required .jar libraries placed inside the libs/ directory
+All required .jar files placed in the libs/ directory
 
-🏗️ Compile & Run the Server
+🏗️ Compile & Run the Backend
 bash
 Copy
 Edit
@@ -79,5 +84,5 @@ cd C:\Users\bardi\IdeaProjects\ChatAppBackend
 javac -cp ".;libs/*;src" src\*.java src\backend\*.java
 
 java -cp ".;libs/*;src" backend.Main
-The server will be accessible via HTTP at:
-http://localhost:8080
+Once running, the server will be available at:
+📡 http://localhost:8080
