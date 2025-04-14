@@ -1,5 +1,7 @@
 # 💬 ChatApp - Backend
-👉 To go to the frontend: ChatApp-Front
+👉 To go to the frontend: "" *[ChatApp-Front](https://github.com/1997alon/ChatApp-Front)*
+
+---
 
 ❓ What is this project?
 ChatApp is a simple real-time messaging platform where users can:
@@ -12,8 +14,8 @@ ChatApp is a simple real-time messaging platform where users can:
 
 The system uses a modular Object-Oriented Java backend, paired with a modern React frontend, to deliver an efficient and interactive chat experience.
 
-##🧠 Technologies Used
-###🔙 Backend
+## 🧠 Technologies Used
+### 🔙 Backend
 Language: Java
 
 Framework: Spring Boot (manually set up — no Maven)
@@ -28,7 +30,7 @@ Thread pooling used to handle multiple concurrent requests
 
 JSON for all data exchange
 
-###🖥️ Frontend
+### 🖥️ Frontend
 Language: JavaScript
 
 Technologies: React, CSS
@@ -41,7 +43,7 @@ Displays message history
 
 Responsive design that works across devices
 
-###🗄️ Database
+### 🗄️ Database
 Engine: MySQL
 
 Tables:
@@ -67,7 +69,7 @@ Additional tables may exist for session and user metadata
 
 📄 Uses JSON for all data formats
 
-##🛠️ Build & Run Instructions
+## 🛠️ Build & Run Instructions
 🔧 Prerequisites
 Java 17 or higher
 
