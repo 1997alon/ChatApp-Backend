@@ -1,37 +1,83 @@
-# ChatApp Backend
+ChatApp - Backend
+👉 To go to the frontend: ChatApp-Front
 
-## To the Front this is the link:
-https://github.com/1997alon/ChatApp-Front
+❓ What is this project?
+ChatApp is a simple real-time messaging platform that allows users to register, log in, and chat with others through a clean interface.
+The system uses a structured backend and a modern frontend to provide a smooth and interactive experience.
 
-## Server Summary
+All communication is handled via REST API over HTTP, and only registered users can interact with the system.
 
-The server is built using Spring Boot libraries, manually uploaded and configured to run seamlessly. 
-It leverages thread pooling for efficient handling of multiple requests, ensuring optimized performance. 
-The server is fully integrated with MySQL, allowing for robust data storage and retrieval.
+🧠 Technologies Used
+🔙 Backend
+Language: Java
 
-You can connect to the server via HTTP at http://localhost:8080.
+Framework: Spring Boot (manually set up, without Maven)
 
-The server is written in Java, 
-utilizing Object-Oriented Programming (OOP) principles and demonstrating a strong understanding of REST API development and socket communication.
-It was developed with a combination of online resources and personal knowledge to create a well-structured,
-reliable backend solution.
+Architecture:
 
+Object-Oriented Programming (OOP) with clean structure and modularity
 
+REST API used for communication between frontend and backend
 
+Thread pooling used to handle multiple requests efficiently
 
-This repository contains the backend server for the ChatApp project. Below are the instructions for compiling and running the server.
+JSON is used for data exchange
 
-## Prerequisites
+🖥️ Frontend
+Language: JavaScript
 
-Before running the server, make sure you have the following installed:
-- **Java 17 or higher**
-- **All dependencies** in the `libs/` folder
+Libraries/Technologies: React, CSS
 
-## Running the Server
+Features:
 
-### 1. Navigate to the Project Directory
+User-friendly interface for login and messaging
 
-Open your terminal and navigate to the backend project directory:
+Displays message history
 
-```bash
+Built with clean, responsive design
+
+🗄️ Database
+Engine: MySQL
+
+Tables:
+
+users – Stores user credentials
+
+messages – Stores all sent and received messages
+
+Other tables as needed for managing chat sessions and user data
+
+✨ Features
+👤 User registration and login
+
+💬 Real-time messaging interface
+
+🌐 REST API communication between frontend and backend
+
+🧵 Multithreaded backend with thread pool
+
+🧠 Object-Oriented backend design
+
+🔄 Clear separation between frontend and backend
+
+📄 JSON used for all data exchange
+
+🛠️ Build & Run Instructions
+🔧 Prerequisites
+Java 17 or higher
+
+MySQL running and configured
+
+All required .jar libraries placed inside the libs/ directory
+
+🏗️ Compile & Run the Server
+bash
+Copy
+Edit
 cd C:\Users\bardi\IdeaProjects\ChatAppBackend
+
+javac -cp ".;libs/*;src" src\*.java src\backend\*.java
+
+java -cp ".;libs/*;src" backend.Main
+The server will be accessible via HTTP at:
+http://localhost:8080
