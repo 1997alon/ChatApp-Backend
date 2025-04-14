@@ -54,7 +54,7 @@ messages – Stores sent/received chat messages
 
 Additional tables may exist for session and user metadata
 
-✨ Features
+### ✨ Features
 👤 User registration and login
 
 💬 Real-time messaging interface
